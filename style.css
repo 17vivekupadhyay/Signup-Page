@@ -1,0 +1,135 @@
+body{
+    background-color:rgb(241, 236, 236);
+}
+
+.formski{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgb(224, 218, 218);
+    display: block;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    color: rgb(37, 69, 253);
+
+}
+
+.messages{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.80rem;
+    margin-bottom: 15%;
+    display: block;
+    padding: 10%;
+    padding-bottom: 0px;
+    padding-left: 5%;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 35%;
+
+  }
+  
+  .left::before {
+    content: 'Sign Up Now!';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  }
+
+  .right {
+    margin-left: 35%;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      position: static;
+    }
+    
+    .left {
+      position: static;
+      width: 100%;
+      height: 50vh;
+    }
+
+    .left::before {
+      content: '';
+      position: absolute;
+      top: 25%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100%;
+      height: 15%;
+      background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+    }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  }
+
+    .messages{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.80rem;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .right {
+      margin-left: 0;
+    }
+  }
+  
+  
